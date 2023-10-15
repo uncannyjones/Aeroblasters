@@ -6,7 +6,7 @@ import os
 import time
 import random
 
-WIDTH, HEIGHT = 750, 750
+WIDTH, HEIGHT = 1000, 1000
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Aeroblasters")
 # Load Images
@@ -34,6 +34,9 @@ def main():
 	run = True
 	FPS = 60  #This will show 60 frames per second, The more the FPS, The More will be the frame rate
 	clock = pygame.time.Clock()
+
+	def redraw_window():
+		pygame.display.update()
 
 	while run:
 		clock.tick(FPS)
