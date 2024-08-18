@@ -4,9 +4,7 @@ Did You know that the first Shooting game was created back in 1977. This game th
 
 ## Instructions
 
-In order to Play this game You need these following apps installed
-* Sublime Text 3
-* Python and pip
+In order to Play this game You need these following module installed
 
 pip install pygame
 
